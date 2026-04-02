@@ -465,11 +465,6 @@ h2 {
   max-width: 70ch;
 }
 
-.section-intro--long {
-  max-width: min(78ch, 100%);
-  line-height: 1.65;
-}
-
 .hero .subtitle {
   color: var(--muted);
 }
@@ -569,6 +564,21 @@ h2 {
 
 .partner-logo--bene {
   width: clamp(130px, 30vw, 220px);
+}
+
+.partnership-card .partnership-card__name {
+  margin: 0 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  line-height: 1.25;
+}
+
+.partnership-card .partnership-card__text {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--muted);
 }
 
 .text-link {
