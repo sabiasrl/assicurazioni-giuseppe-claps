@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Giuseppe Claps | Bene Assicurazioni</title>
+    <title>Giuseppe Claps | Agente assicurativo plurimandatario</title>
     <meta
       name="description"
-      content="Giuseppe Claps, sub agente assicurativo Bene Assicurazioni a San Nicola di Pietragalla. Soluzioni personalizzate per auto, casa, famiglia e imprese."
+      content="Giuseppe Claps, agente assicurativo plurimandatario a San Nicola di Pietragalla. Partner: Sara Assicurazioni, Zurich, Prima e Bene. Soluzioni per auto, casa, famiglia e imprese."
     />
     <link rel="icon" type="image/x-icon" href="https://www.bene.it/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,93 +18,123 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="hero" id="top">
-      <div class="container">
-        <nav class="nav">
-          <a
-            class="brand"
-            href="https://www.bene.it/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Bene Assicurazioni"
-          >
-            <img
-              class="brand-logo"
-              src="https://www.bene.it/assets/logo.svg"
-              alt="Logo Bene Assicurazioni"
-            />
-            <span class="brand-text">Bene Assicurazioni</span>
-          </a>
-          <a class="btn btn-small" href="#contatti">Contatti</a>
+    <a class="skip-link" href="#main-content">Vai al contenuto</a>
+
+    <header class="site-header">
+      <div class="container site-header__bar">
+        <a class="site-header__brand" href="#top">Agenzia Claps</a>
+
+        <button
+          type="button"
+          class="site-header__menu-btn"
+          id="nav-menu-btn"
+          aria-expanded="false"
+          aria-controls="site-nav-panel"
+          aria-label="Apri menu di navigazione"
+        >
+          <span class="site-header__menu-icon" aria-hidden="true"></span>
+        </button>
+
+        <nav class="site-nav site-nav--desktop" aria-label="Navigazione principale">
+          <ul class="site-nav__list">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#servizi">Servizi</a></li>
+            <li><a href="#competitive">Perché noi</a></li>
+            <li><a href="#partnership">Partner</a></li>
+            <li><a href="#azienda">Dettagli aziendali</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+          </ul>
         </nav>
-        <div class="hero-content">
-          <p class="eyebrow">Sub Agente Assicurativo</p>
-          <h1>Giuseppe Claps</h1>
-          <p class="subtitle">
-            Consulenza assicurativa a <strong>San Nicola di Pietragalla</strong>,
-            con soluzioni chiare, competitive e costruite sulle tue esigenze.
-          </p>
-          <div class="cta-row">
-            <a class="btn" href="#servizi">Scopri i servizi</a>
-            <a class="btn btn-outline" href="#partnership">Partnership</a>
-          </div>
-        </div>
       </div>
     </header>
 
-    <main>
-      <section class="section" id="azienda">
-        <div class="container">
-          <h2>Dettagli aziendali</h2>
-          <div class="grid grid-cards">
-            <article class="card">
-              <h3>Professionista</h3>
-              <p>Giuseppe Claps</p>
-            </article>
-            <article class="card">
-              <h3>Mandato</h3>
-              <p>Sub agente presso Bene Assicurazioni</p>
-            </article>
-            <article class="card">
-              <h3>Territorio</h3>
-              <p>San Nicola di Pietragalla (PZ) e provincia di Potenza</p>
-            </article>
-            <article class="card">
-              <h3>Servizi</h3>
-              <p>Auto, casa, famiglia, professionisti e imprese</p>
-            </article>
-          </div>
-        </div>
-      </section>
+    <div class="site-nav-panel" id="site-nav-panel" hidden>
+      <div class="container site-nav-panel__inner">
+        <nav aria-label="Navigazione principale (mobile)">
+          <ul class="site-nav-panel__list">
+            <li><a href="#top">Home</a></li>
+            <li><a href="#servizi">Servizi</a></li>
+            <li><a href="#competitive">Perché noi</a></li>
+            <li><a href="#partnership">Partner</a></li>
+            <li><a href="#azienda">Dettagli aziendali</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+          </ul>
+        </nav>
+        <a class="btn site-nav-panel__cta" href="#contatti">Contattaci</a>
+      </div>
+    </div>
 
-      <section class="section section-soft" id="partnership">
+    <main id="main-content">
+      <section class="hero" id="top">
         <div class="container">
-          <h2>Partnership</h2>
-          <p class="section-intro">
-            Collaborazioni selezionate per offrire consulenza assicurativa
-            professionale e affidabile.
-          </p>
-          <div class="grid grid-partnership">
-            <article class="card partnership-card">
-              <img
-                class="partner-logo"
-                src="https://www.bene.it/assets/logo.svg"
-                alt="Logo Bene Assicurazioni"
-                loading="lazy"
-              />
-              <p>
-                <strong>Bene Assicurazioni</strong><br />
-                Partner assicurativo di riferimento per soluzioni personalizzate
-                auto, famiglia e impresa.
+          <div class="hero-layout">
+            <div class="hero-content">
+              <p class="eyebrow">Agente assicurativo plurimandatario</p>
+              <h1>Giuseppe Claps</h1>
+              <p class="subtitle">
+                Consulenza assicurativa a <strong>San Nicola di Pietragalla</strong>,
+                con soluzioni chiare, competitive e costruite sulle tue esigenze.
               </p>
-            </article>
+              <div class="cta-row">
+                <a class="btn" href="#servizi">Scopri i servizi</a>
+                <a class="btn btn-outline" href="#partnership">Partner assicurativi</a>
+              </div>
+            </div>
+            <div class="hero-partners-frame">
+              <div class="hero-partners" role="group" aria-label="Partner assicurativi">
+              <a class="hero-partners__tile" href="#partnership">
+                <img
+                  src="assets/partner-sara-assicurazioni.svg"
+                  alt="Sara Assicurazioni"
+                  width="160"
+                  height="48"
+                  loading="eager"
+                  decoding="async"
+                />
+              </a>
+              <a class="hero-partners__tile" href="#partnership">
+                <img
+                  src="assets/partner-zurich.svg"
+                  alt="Zurich"
+                  width="140"
+                  height="40"
+                  loading="eager"
+                  decoding="async"
+                />
+              </a>
+              <a class="hero-partners__tile" href="#partnership">
+                <img
+                  src="assets/partner-prima.svg"
+                  alt="Prima"
+                  width="180"
+                  height="44"
+                  loading="eager"
+                  decoding="async"
+                />
+              </a>
+              <a class="hero-partners__tile" href="#partnership">
+                <img
+                  src="assets/partner-bene.svg"
+                  alt="Bene Assicurazioni"
+                  width="160"
+                  height="40"
+                  loading="eager"
+                  decoding="async"
+                />
+              </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="section" id="servizi">
         <div class="container">
-          <h2>Assicurazioni auto e servizi assicurativi</h2>
+          <h2>Servizi assicurativi</h2>
+          <p class="section-intro">
+            Dalla RC auto alle coperture per casa, famiglia e attività: soluzioni su
+            misura.
+          </p>
           <div class="grid grid-services">
             <article class="service-card">
               <img
@@ -140,7 +170,7 @@
 
       <section class="section section-dark" id="competitive">
         <div class="container">
-          <h2>Assicurazioni competitive</h2>
+          <h2>Perché scegliere la mia consulenza</h2>
           <p class="section-intro">
             Analisi delle migliori opzioni disponibili per offrirti un equilibrio
             concreto tra prezzo, coperture e qualita del servizio.
@@ -152,6 +182,106 @@
           </div>
         </div>
       </section>
+
+      <section class="section section-soft" id="partnership">
+        <div class="container">
+          <h2>Partner assicurativi</h2>
+          <p class="section-intro section-intro--long">
+            In qualità di agente assicurativo plurimandatario collaboro con alcune
+            tra le principali compagnie del mercato — Sara Assicurazioni, Zurich,
+            Prima e Bene — per proporti polizze affidabili e un ventaglio di
+            soluzioni tra cui scegliere in libertà, senza vincoli a un solo
+            portafoglio prodotti. Questo modello mi permette di confrontare
+            coperture, costi e servizi con obiettività e di orientarti verso la
+            scelta più coerente con le tue esigenze, dalla protezione della famiglia
+            e dell’abitazione alla mobilità e all’attività professionale o
+            d’impresa. Il rapporto resta sempre diretto con te: io seguo la
+            consulenza, la stipula e l’assistenza nel tempo, con la solidità di
+            partner assicurativi riconosciuti.
+          </p>
+          <div class="grid grid-partnership">
+            <article class="card partnership-card">
+              <img
+                class="partner-logo partner-logo--sara"
+                src="assets/partner-sara-assicurazioni.svg"
+                alt="Logo Sara Assicurazioni"
+                loading="lazy"
+              />
+              <p>
+                <strong>Sara Assicurazioni</strong><br />
+                Soluzioni assicurative su misura.
+              </p>
+            </article>
+            <article class="card partnership-card">
+              <img
+                class="partner-logo partner-logo--zurich"
+                src="assets/partner-zurich.svg"
+                alt="Logo Zurich"
+                loading="lazy"
+              />
+              <p>
+                <strong>Zurich</strong><br />
+                Coperture auto, casa, famiglia e impresa.
+              </p>
+            </article>
+            <article class="card partnership-card">
+              <img
+                class="partner-logo partner-logo--prima"
+                src="assets/partner-prima.svg"
+                alt="Logo Prima"
+                loading="lazy"
+              />
+              <p>
+                <strong>Prima</strong><br />
+                Polizze e servizi digitali.
+              </p>
+            </article>
+            <article class="card partnership-card">
+              <img
+                class="partner-logo partner-logo--bene"
+                src="assets/partner-bene.svg"
+                alt="Logo Bene Assicurazioni"
+                loading="lazy"
+              />
+              <p>
+                <strong>Bene</strong><br />
+                Soluzioni personalizzate auto, famiglia e impresa.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="azienda">
+        <div class="container">
+          <h2>Dettagli aziendali</h2>
+          <p class="section-intro">
+            Professionista e dati utili per una consulenza trasparente.
+          </p>
+          <div class="grid grid-cards">
+            <article class="card">
+              <h3>Professionista</h3>
+              <p>Giuseppe Claps</p>
+            </article>
+            <article class="card">
+              <h3>Ruolo</h3>
+              <p>Agente assicurativo plurimandatario</p>
+            </article>
+            <article class="card">
+              <h3>Partita IVA</h3>
+              <p>IT 01784640763</p>
+            </article>
+            <article class="card">
+              <h3>Territorio</h3>
+              <p>San Nicola di Pietragalla (PZ) e provincia di Potenza</p>
+            </article>
+            <article class="card">
+              <h3>Ambiti</h3>
+              <p>Auto, casa, famiglia, professionisti e imprese</p>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer" id="contatti">
@@ -159,10 +289,15 @@
         <h2>Contatti</h2>
         <p>
           <strong>Giuseppe Claps</strong><br />
-          Sub agente assicurativo Bene Assicurazioni<br />
+          Agente assicurativo plurimandatario — Bene assicurazioni<br />
+          Partita IVA: IT 01784640763<br />
           San Nicola di Pietragalla (PZ)
         </p>
         <div class="contact-list">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:claps.giuseppe@live.it">claps.giuseppe@live.it</a>
+          </p>
           <p>
             <strong>Giuseppe:</strong>
             <a href="tel:+393497972511">+39 349 797 2511</a>
@@ -173,24 +308,92 @@
               rel="noopener noreferrer"
               aria-label="Contatta Giuseppe su WhatsApp"
               title="WhatsApp Giuseppe"
-              >&#128172;</a
-            >
+              ><svg
+                class="wa-link__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  fill="currentColor"
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                />
+              </svg>
+            </a>
           </p>
           <p>
-            <strong>Bene Assicurazioni:</strong>
+            <strong>Agenzia:</strong>
             <a href="tel:+393513178660">+39 351 317 8660</a>
             <a
               class="wa-link"
               href="https://wa.me/393513178660"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Contatta Bene Assicurazioni su WhatsApp"
-              title="WhatsApp Bene Assicurazioni"
-              >&#128172;</a
-            >
+              aria-label="Contatta l'agenzia su WhatsApp"
+              title="WhatsApp agenzia"
+              ><svg
+                class="wa-link__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  fill="currentColor"
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                />
+              </svg>
+            </a>
           </p>
         </div>
       </div>
     </footer>
+
+    <script>
+      (function () {
+        var header = document.querySelector(".site-header");
+        var btn = document.getElementById("nav-menu-btn");
+        var panel = document.getElementById("site-nav-panel");
+        if (!header || !btn || !panel) return;
+
+        function setOpen(open) {
+          btn.setAttribute("aria-expanded", open ? "true" : "false");
+          btn.setAttribute("aria-label", open ? "Chiudi menu di navigazione" : "Apri menu di navigazione");
+          panel.hidden = !open;
+          header.classList.toggle("site-header--open", open);
+          document.body.classList.toggle("nav-mobile-open", open);
+        }
+
+        btn.addEventListener("click", function () {
+          var open = btn.getAttribute("aria-expanded") !== "true";
+          setOpen(open);
+          if (open) {
+            requestAnimationFrame(function () {
+              var first = panel.querySelector("a");
+              if (first) first.focus();
+            });
+          }
+        });
+
+        panel.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            setOpen(false);
+          });
+        });
+
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") setOpen(false);
+        });
+
+        window.addEventListener("resize", function () {
+          if (window.matchMedia("(min-width: 900px)").matches) setOpen(false);
+        });
+      })();
+    </script>
   </body>
 </html>
