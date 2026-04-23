@@ -645,11 +645,31 @@ h2 {
 .footer {
   background: #072848;
   color: #e2e8f0;
-  padding: 2.6rem 0 3rem;
+  padding: 2.6rem 0 0;
 }
 
 .footer p {
   color: #cbd5e1;
+}
+
+.footer-bottom-bar {
+  margin-top: 1.3rem;
+  background: #041a30;
+  border-top: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+.footer-bottom-bar__inner {
+  padding: 0.9rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  font-size: 0.86rem;
+}
+
+.footer-bottom-bar__inner p {
+  margin: 0;
 }
 
 .contact-list {
@@ -671,6 +691,14 @@ h2 {
 
 .contact-list .wa-link:hover {
   text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .footer-bottom-bar__inner {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.9rem;
+  }
 }
 
 .wa-link {
